@@ -209,6 +209,7 @@ body{font-family: 'Urbanist', sans-serif;}
 }
 /** End footer **/
 
+/** Start responsive  **/
 
 img {
     max-width: 100%;
@@ -435,3 +436,4 @@ body {
         margin: 0 6px;
     }
 }
+/** End responsive  **/
