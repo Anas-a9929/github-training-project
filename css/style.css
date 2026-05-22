@@ -197,7 +197,6 @@ body{font-family: 'Urbanist', sans-serif;}
 
 /** End do-you-have **/
 
-/** End do-you-have **/
 
 /** start footer **/
 
@@ -208,286 +207,231 @@ body{font-family: 'Urbanist', sans-serif;}
     width: 98%;
     margin: 11px 11px 25px 11px
 }
-/** start responsive **/
+/** End footer **/
 
-@media (max-width: 1199.98px) {
-    .hero-section .content-text h1 {
-        font-size: 36px;
-    }
 
-    .hero-section .content-text p,
-    .Protfile .content-text p,
-    .Skills .box-left p,
-    .Skills .box-right .content-text p {
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 1200px) {
+
+    .hero-section .content-text p {
         width: 100%;
     }
 
-    .owl-carousel{
-        top: 90px;
-        right: 120px;
-        width: 28%;
+    .owl-carousel {
+        width: 100%;
+        position: relative;
+        right: auto;
+        top: auto;
     }
 
-    .testimonials .border-1{
-        height: 420px;
+    .testimonials .border-1 {
         width: 420px;
+        height: 420px;
     }
 
-    .testimonials .border-2{
-        height: 370px;
+    .testimonials .border-2 {
         width: 370px;
-        margin-left: 25px;
-        margin-top: 25px;
+        height: 370px;
     }
 
-    .testimonials .border-3{
-        height: 320px;
+    .testimonials .border-3 {
         width: 320px;
-        margin-left: 25px;
-        margin-top: 25px;
+        height: 320px;
     }
 }
 
-@media (max-width: 991.98px) {
-    .container{
+/* =========================
+   TABLETS (<=992px)
+========================= */
+@media (max-width: 992px) {
+
+    .container {
         width: 92%;
     }
 
-    .navbar .navbar-collapse{
+    /* NAVBAR */
+    .navbar-collapse {
         background-color: #edfbff;
         padding: 15px;
-        margin-top: 15px;
+        margin-top: 10px;
         border-radius: 12px;
     }
 
-    .navbar .navbar-nav{
+    .navbar-nav {
         align-items: flex-start;
+        gap: 10px;
     }
 
-    .hero-section{
+    /* HERO */
+    .hero-section {
+        text-align: center;
         padding: 40px 0 80px 0;
     }
 
-    .hero-section .content-text h1{
-        font-size: 32px;
+    .hero-section .row {
+        flex-direction: column-reverse;
     }
 
-    .hero-section .content-text p{
+    .hero-section .content-text p {
         width: 100%;
     }
 
-    .hero-section .content-img{
-        margin-top: 40px;
-        text-align: center;
-    }
-
-    .hero-section .content-img img{
+    .hero-section .content-img img {
         position: relative !important;
-        right: auto !important;
-        top: auto !important;
-        margin: 0 auto !important;
+        margin: 10px auto !important;
         max-width: 70% !important;
+        display: block;
     }
 
-    .my-info{
+    /* MY INFO */
+    .my-info {
         height: auto;
         margin-top: 40px;
     }
 
-    .my-info .container{
+    .my-info .container {
         position: static !important;
     }
 
-    .my-info .content-text{
+    .my-info .content-text {
         width: 50% !important;
-        padding-left: 20px !important;
-        padding-right: 20px !important;
-        margin-top: 0 !important;
     }
 
-    .my-info .content-text hr{
+    .my-info .content-text hr {
         display: none;
     }
 
-    .Protfile .content-text h2,
-    .Skills .box-left h2,
-    .testimonials .box-left h2{
-        width: 100% !important;
+    /* PORTFOLIO */
+    .Protfile .row {
+        flex-direction: column;
     }
 
-    .Protfile .content-text p,
-    .Skills .box-left p{
+    .Protfile .content-text p {
         width: 100%;
     }
 
-    .Protfile .content-img img{
-        position: static !important;
-        top: auto !important;
-        width: 100%;
-        margin-top: 15px;
+    /* SKILLS */
+    .Skills .row {
+        flex-direction: column;
     }
 
-    .Skills .bg-box-left{
+    .Skills .box-left p {
+        width: 100%;
+    }
+
+    .Skills .bg-box-left {
         padding: 120px 0;
-        top: 60px;
     }
 
-    .Skills .box-right{
-        margin-top: 35px;
+    /* TESTIMONIALS */
+    .testimonials .border-1 {
+        display: none;
     }
 
-    .owl-carousel{
-        top: 60px;
-        right: 0;
-        width: 100%;
-    }
-
-    .testimonials .content-slide{
+    .testimonials .content-slide {
         justify-content: center !important;
     }
 
-    .testimonials .border-1{
-        display: none !important;
-    }
-
-    .do-you-have .content{
+    /* CTA */
+    .do-you-have .row {
         text-align: center;
-    }
-
-    .do-you-have .content .content-text{
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-
-    .do-you-have .content .content-text h2::after{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .footer .row::before{
-        width: 100%;
-        margin: 11px 0 25px 0;
-    }
-
-    .footer .content-footer > div{
-        width: 100%;
-        text-align: center !important;
-        justify-content: center !important;
-        margin-bottom: 12px;
-    }
-
-    .footer .icons-social-footer{
-        text-align: center !important;
     }
 }
 
-@media (max-width: 767.98px) {
-    .hero-section .content-text h1{
-        font-size: 28px;
-    }
 
-    .hero-section .content-text button{
-        width: 100%;
-        margin-left: 0 !important;
-        margin-top: 12px !important;
-    }
+@media (max-width: 768px) {
 
-    .hero-section .content-img img{
-        max-width: 85% !important;
-    }
-
-    .my-info .content-text{
-        width: 100% !important;
-        padding: 15px 20px !important;
-    }
-
-    .my-info .content-text p{
-        font-size: 18px;
-    }
-
-    .Protfile .content-text h2,
-    .Skills .box-left h2,
-    .testimonials .box-left h2{
+    /* HEADINGS */
+    .hero-section .content-text h1 {
         font-size: 26px;
     }
 
-    .Protfile .content-text .btn-contact-me{
-        margin-bottom: 10px;
-    }
-
-    .Protfile .content-text img{
-        display: block;
-        margin: 12px 0 0 0 !important;
-    }
-
-    .Skills .box-right .content-text p{
-        width: 100%;
-    }
-
-    .Skills .box-right .row{
-        margin-bottom: 18px;
-    }
-
-    .do-you-have .content .btn-hire-me{
-        margin-top: 18px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .container{
-        width: 95%;
-    }
-
-    .navbar-brand{
-        font-size: 18px;
-    }
-
-    .hero-section .content-text h1{
-        font-size: 24px;
-    }
-
-    .hero-section .content-text p{
-        font-size: 15px;
-    }
-
-    .hero-section .content-text span,
-    .my-info .content-text span{
-        font-size: 16px;
-    }
-
-    .addresses-section{
-        padding: 12px 20px;
-    }
-
-    .hero-section .content-img img{
-        max-width: 95% !important;
-    }
-
     .Protfile .content-text h2,
     .Skills .box-left h2,
-    .testimonials .box-left h2,
-    .do-you-have .content .content-text h2{
+    .testimonials h2,
+    .do-you-have h2 {
         font-size: 22px;
     }
 
-    .Skills .bg-box-left{
-        padding: 90px 0;
+    /* HERO BUTTONS */
+    .hero-section .content-text button {
+        width: 100%;
+        margin: 10px 0 !important;
     }
 
-    .Skills .box-right .content-svg{
-        width: 44px;
-        height: 44px;
-        padding: 10px;
+    /* MY INFO */
+    .my-info .content-text {
+        width: 100% !important;
+        text-align: center;
+        padding: 10px 0;
     }
 
-    .owl-carousel{
-        top: 40px;
+    /* PORTFOLIO IMAGES */
+    .Protfile img {
+        position: static !important;
+        margin: 10px 0;
     }
 
-    .footer .icons-social-footer a{
-        margin-left: 8px !important;
-        margin-right: 8px;
+    /* SKILLS */
+    .Skills .box-right .row {
+        margin-bottom: 20px;
+    }
+
+    /* TESTIMONIALS */
+    .owl-carousel {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .footer .content-footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
     }
 }
 
-/** end responsive **/
+
+@media (max-width: 576px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .hero-section .content-text h1 {
+        font-size: 22px;
+    }
+
+    .hero-section .content-text p {
+        font-size: 14px;
+    }
+
+    .addresses-section {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    /* CTA BUTTON */
+    .do-you-have .btn-hire-me {
+        width: 100%;
+    }
+
+    /* SKILLS ICONS */
+    .Skills .content-svg {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* FOOTER ICONS */
+    .footer .icons-social-footer a {
+        margin: 0 6px;
+    }
+}
