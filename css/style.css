@@ -57,3 +57,31 @@ body{font-family: 'Urbanist', sans-serif;}
 
 .hero-section .content-text button:hover svg path{fill: #fff; transition: all .8s ease;}
 /** End hero-section **/
+
+/**start my-info **/
+.my-info{height: 150px;}
+
+.my-info .content-text span{color: var(--primarycolor);font-size: 21px;}
+
+.my-info .content-text p{font-size: 23px;}
+
+.my-info .content-text hr{
+    width: 1px;
+    height: 80px;
+    background-color: #B9B9B9;
+    margin-left: 46px;
+}
+/** end my-info**/
+
+/** start Protfile **/
+
+.Protfile .content-text h2{font-size: 32px;}
+
+.Skills .box-left h2 span,
+.Protfile .content-text h2 span{color: var(--primarycolor)}
+
+.Protfile .content-text p{width: 372px; color: #222222; line-height: 25px;}
+
+.Protfile .content-text .btn-contact-me:hover img{ margin-left: 50px;}
+
+/** End protfile **/ 
