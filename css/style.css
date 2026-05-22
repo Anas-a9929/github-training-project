@@ -1,0 +1,47 @@
+/** globle **/
+body{font-family: 'Urbanist', sans-serif;}
+
+/** globle classes **/
+.container{width: 85%;margin: auto;}
+
+:root{
+    --primarycolor:#2287A3;
+}
+
+.btn-outline-light{
+    color: var(--primarycolor);
+    border: var(--primarycolor);
+    padding: 4px 14px;
+    transition: all .8s ease;
+}
+
+.btn-outline-light:hover {
+    color: #fff;
+    background-color: #2287A3;
+    border-color: #2287A3;
+}
+
+.addresses-section{
+    border-radius: 50%;
+    padding: 18px 30px;
+    border:1px dashed #000000;
+    color: var(--primarycolor);
+}
+
+.color-span{color: var(--primarycolor);}
+
+/** start navbar **/
+.navbar{background-color: #edfbff;}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{color: var(--primarycolor) !important;}
+
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link .active {color: var(--primarycolor) !important;}
+
+.navbar .navbar-nav .nav-item .active::after{
+    content:'';
+    border:1px solid var(--primarycolor);
+    width: 100%;
+    display: block;
+}
+/** End navbar **/
