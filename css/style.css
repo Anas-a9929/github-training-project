@@ -208,3 +208,286 @@ body{font-family: 'Urbanist', sans-serif;}
     width: 98%;
     margin: 11px 11px 25px 11px
 }
+/** start responsive **/
+
+@media (max-width: 1199.98px) {
+    .hero-section .content-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-section .content-text p,
+    .Protfile .content-text p,
+    .Skills .box-left p,
+    .Skills .box-right .content-text p {
+        width: 100%;
+    }
+
+    .owl-carousel{
+        top: 90px;
+        right: 120px;
+        width: 28%;
+    }
+
+    .testimonials .border-1{
+        height: 420px;
+        width: 420px;
+    }
+
+    .testimonials .border-2{
+        height: 370px;
+        width: 370px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    .testimonials .border-3{
+        height: 320px;
+        width: 320px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container{
+        width: 92%;
+    }
+
+    .navbar .navbar-collapse{
+        background-color: #edfbff;
+        padding: 15px;
+        margin-top: 15px;
+        border-radius: 12px;
+    }
+
+    .navbar .navbar-nav{
+        align-items: flex-start;
+    }
+
+    .hero-section{
+        padding: 40px 0 80px 0;
+    }
+
+    .hero-section .content-text h1{
+        font-size: 32px;
+    }
+
+    .hero-section .content-text p{
+        width: 100%;
+    }
+
+    .hero-section .content-img{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .hero-section .content-img img{
+        position: relative !important;
+        right: auto !important;
+        top: auto !important;
+        margin: 0 auto !important;
+        max-width: 70% !important;
+    }
+
+    .my-info{
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .my-info .container{
+        position: static !important;
+    }
+
+    .my-info .content-text{
+        width: 50% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin-top: 0 !important;
+    }
+
+    .my-info .content-text hr{
+        display: none;
+    }
+
+    .Protfile .content-text h2,
+    .Skills .box-left h2,
+    .testimonials .box-left h2{
+        width: 100% !important;
+    }
+
+    .Protfile .content-text p,
+    .Skills .box-left p{
+        width: 100%;
+    }
+
+    .Protfile .content-img img{
+        position: static !important;
+        top: auto !important;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .Skills .bg-box-left{
+        padding: 120px 0;
+        top: 60px;
+    }
+
+    .Skills .box-right{
+        margin-top: 35px;
+    }
+
+    .owl-carousel{
+        top: 60px;
+        right: 0;
+        width: 100%;
+    }
+
+    .testimonials .content-slide{
+        justify-content: center !important;
+    }
+
+    .testimonials .border-1{
+        display: none !important;
+    }
+
+    .do-you-have .content{
+        text-align: center;
+    }
+
+    .do-you-have .content .content-text{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .do-you-have .content .content-text h2::after{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer .row::before{
+        width: 100%;
+        margin: 11px 0 25px 0;
+    }
+
+    .footer .content-footer > div{
+        width: 100%;
+        text-align: center !important;
+        justify-content: center !important;
+        margin-bottom: 12px;
+    }
+
+    .footer .icons-social-footer{
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section .content-text h1{
+        font-size: 28px;
+    }
+
+    .hero-section .content-text button{
+        width: 100%;
+        margin-left: 0 !important;
+        margin-top: 12px !important;
+    }
+
+    .hero-section .content-img img{
+        max-width: 85% !important;
+    }
+
+    .my-info .content-text{
+        width: 100% !important;
+        padding: 15px 20px !important;
+    }
+
+    .my-info .content-text p{
+        font-size: 18px;
+    }
+
+    .Protfile .content-text h2,
+    .Skills .box-left h2,
+    .testimonials .box-left h2{
+        font-size: 26px;
+    }
+
+    .Protfile .content-text .btn-contact-me{
+        margin-bottom: 10px;
+    }
+
+    .Protfile .content-text img{
+        display: block;
+        margin: 12px 0 0 0 !important;
+    }
+
+    .Skills .box-right .content-text p{
+        width: 100%;
+    }
+
+    .Skills .box-right .row{
+        margin-bottom: 18px;
+    }
+
+    .do-you-have .content .btn-hire-me{
+        margin-top: 18px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container{
+        width: 95%;
+    }
+
+    .navbar-brand{
+        font-size: 18px;
+    }
+
+    .hero-section .content-text h1{
+        font-size: 24px;
+    }
+
+    .hero-section .content-text p{
+        font-size: 15px;
+    }
+
+    .hero-section .content-text span,
+    .my-info .content-text span{
+        font-size: 16px;
+    }
+
+    .addresses-section{
+        padding: 12px 20px;
+    }
+
+    .hero-section .content-img img{
+        max-width: 95% !important;
+    }
+
+    .Protfile .content-text h2,
+    .Skills .box-left h2,
+    .testimonials .box-left h2,
+    .do-you-have .content .content-text h2{
+        font-size: 22px;
+    }
+
+    .Skills .bg-box-left{
+        padding: 90px 0;
+    }
+
+    .Skills .box-right .content-svg{
+        width: 44px;
+        height: 44px;
+        padding: 10px;
+    }
+
+    .owl-carousel{
+        top: 40px;
+    }
+
+    .footer .icons-social-footer a{
+        margin-left: 8px !important;
+        margin-right: 8px;
+    }
+}
+
+/** end responsive **/
