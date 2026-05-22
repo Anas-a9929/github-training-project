@@ -111,3 +111,88 @@ body{font-family: 'Urbanist', sans-serif;}
 .Skills .box-right .content-text p{color: #8F8F8F; width: 380px;}
 
 /** End Skills**/
+
+/** start testimonials **/
+
+.testimonials{margin-top: 150px;}
+
+.testimonials .border-1{
+    border: 1px solid #B9B9B9;
+    height: 485px;
+    width: 485px;
+    border-radius: 50%;
+   animation: rotate 15s linear infinite; 
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+.testimonials .border-2{
+    border: 1px solid #B9B9B9;
+    height: 430px;
+    width: 430px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.testimonials .border-3{
+    border: 1px solid #B9B9B9;
+    height: 372px;
+    width: 372px;
+    border-radius: 50%;
+    margin-left: 27px;
+    margin-top: 27px;
+}
+
+.owl-carousel{
+    top: 108px;
+    right: 213px;
+    width: 20%;
+}
+
+.owl-dots {text-align: center;}
+
+.owl-dots button{
+    width: 9px;
+    height: 9px;
+    border-radius: 10px;
+    background: #D9D9D9 !important;
+    margin-left: 1px;
+}
+
+.owl-dots button.active{
+    background-color: var(--primarycolor) !important;
+    width: 15px;
+}
+
+/** End testimonials **/
+
+/** start do-you-have **/
+.do-you-have .content{background-color: var(--primarycolor);}
+
+.do-you-have .content .btn-hire-me{
+    background-color: white;
+    font-size: 16px;
+    color: var(--primarycolor);
+    padding: 6px 20px;
+}
+
+.do-you-have .content .content-text h2::after{
+    content: '';
+    border: 1px solid #ffffff;
+    display: block;
+    width: 20%;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.do-you-have .content .content-text p{line-height: 30px;}
+
+/** End do-you-have **/
