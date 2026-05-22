@@ -196,3 +196,15 @@ body{font-family: 'Urbanist', sans-serif;}
 .do-you-have .content .content-text p{line-height: 30px;}
 
 /** End do-you-have **/
+
+/** End do-you-have **/
+
+/** start footer **/
+
+.footer .row::before{
+    content: '';
+    border: 1px solid #828282;
+    display: block;
+    width: 98%;
+    margin: 11px 11px 25px 11px
+}
