@@ -45,3 +45,15 @@ body{font-family: 'Urbanist', sans-serif;}
     display: block;
 }
 /** End navbar **/
+
+/** start hero-section **/
+.hero-section{background-color: #edfbff;padding: 1px 0 100px 0;}
+
+.hero-section .content-text span{color: var(--primarycolor);}
+
+.hero-section .content-text h1{font-size: 40px;}
+
+.hero-section .content-text p{width: 434px; color: #222222; font-size: 16px;}
+
+.hero-section .content-text button:hover svg path{fill: #fff; transition: all .8s ease;}
+/** End hero-section **/
