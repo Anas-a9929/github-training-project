@@ -28,7 +28,7 @@
 قم بتنزيل المشروع من مستودع GitHub باستخدام الأمر التالي:
 
 ```bash
-git clone https://github.com/USERNAME/github-training-project.git
+git clone [https://github.com/USERNAME/github-training-project.git](https://github.com/Anas-a9929/github-training-project.git)
 ```
 
 أو قم بتنزيل المشروع بصيغة ZIP من خلال صفحة المستودع على GitHub.
