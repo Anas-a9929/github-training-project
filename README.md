@@ -1,16 +1,15 @@
 
-# مشروع التدريب على GitHub
 # موقع ويب شخصي للمهندس أنس الشنطي
 
 ## وصف المشروع
 موقع Portfolio شخصي للمطور أنس الشنطي يهدف إلى عرض المعلومات الشخصية والمهارات التقنية والمشاريع والخبرات في مجال تطوير الواجهات الأمامية (Front-End). تم تصميم الموقع بشكل احترافي باستخدام HTML وCSS وBootstrap مع دعم كامل للتصميم المتجاوب (Responsive Design) لتوفير تجربة استخدام مميزة على جميع الأجهزة.
 
 ## التقنيات المستخدمة
--ا HTML5
--ا CSS3
-- اBootstrap 5 
--ا Git
-- اGitHub
+- HTML5
+- CSS3
+- Bootstrap 5
+- Git
+- GitHub
 
 ## لقطات شاشة للمشروع
 
@@ -26,7 +25,7 @@
 1. استنساخ (Clone) المستودع:
 
 ```bash
-git clone https://github.com/USERNAME/github-training-project.git
+git clone [https://github.com/USERNAME/github-training-project.git](https://github.com/Anas-a9929/github-training-project.git)
 ```
 
 2. فتح مجلد المشروع.
@@ -41,9 +40,6 @@ git clone https://github.com/USERNAME/github-training-project.git
 - تذييل الصفحة (Footer)
 - واجهة مستخدم حديثة ومنظمة
 
-## اسم الطالب
-
-## انس محمد عودة الشنطي
-## 120226878 ا
-أنس محمد الشنطي
-
+###اعداد الطالب :
+#### انس محمد عودة الشنطي
+#### 120226878ا
