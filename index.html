@@ -1,366 +1,353 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anas Al-Shenti | Front-End Developer</title>
-        <link rel="icon" type="image/png" href="img/favicon/img-favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon/img-favicon.png">
+    
+    <!-- Fonts & Bootstrap -->
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Plugins CSS -->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-      </head>
-  <body>
-    <!-- start navbar -->
-        <nav class="navbar navbar-expand-lg pt-3">
-            <div class="container">
+</head>
+<body>
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg pt-3 pb-3 custom-navbar">
+        <div class="container">
             <a class="navbar-brand position-relative z-index-1 fw-bold wow fadeInLeftBig" href="#"> Anas Al-Shenti </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav position-relative z-index-1 m-auto py-2 wow fadeInDownBig">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 py-2 wow fadeInDownBig text-center">
                     <li class="nav-item">
-                        <a class="nav-link active fw-bold" aria-current="#page" href="#">Home</a>
+                        <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-3 text-dark fw-bold" href="#about">About</a>
+                        <a class="nav-link fw-bold" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-3 text-dark fw-bold" href="#Protfile">Portfolio</a>
+                        <a class="nav-link fw-bold" href="#Portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-3 text-dark fw-bold" href="#Skills">Skills</a>
+                        <a class="nav-link fw-bold" href="#Skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-3 text-dark fw-bold" href="#Testimonials">Testimonials</a>
+                        <a class="nav-link fw-bold" href="#Testimonials">Testimonials</a>
                     </li>
                 </ul>
-                <button class="btn btn-outline-light rounded position-relative z-index-1 text-capitalize wow fadeInRightBig">Contact Me</button>
+                <div class="text-center wow fadeInRightBig">
+                    <button class="btn btn-primary-custom rounded text-capitalize">Contact Me</button>
+                </div>
             </div>
-            </div>
-        </nav>
-    <!-- End navbar -->
+        </div>
+    </nav>
+    <!-- End Navbar -->
 
-    <!-- start hero-section -->
-        <section class="hero-section" id="about">
-            <div class="container">
-                <div class="row mt-5 pt-5">
-                    <div class="col-md-7">
-                        <div class="content-text">
-                            <span class="addresses-section wow zoomOut">Welcome</span>
-                            <h1 class="fw-bold my-4 text-capitalize lh-base wow fadeInLeftBig">I'm <span>Anas Al-Shenti</span> <br> Front‑End <span>Developer</span></h1>
-                            <p class="text-capitalize lh-base Lead wow fadeInLeftBig">Specialized in building modern, responsive websites using HTML, CSS, JavaScript, Vue.js, and WordPress. Focused on user experience and creating high‑quality interfaces that work seamlessly across all browsers and devices.</p>
-                            <button class="btn btn-outline-light rounded position-relative z-index-1 text-capitalize mt-4 fadeInUpBig wow">Contact Me</button>
-                            <button class="btn btn-outline-light rounded position-relative z-index-1 text-capitalize ms-3 mt-4 fadeInUpBig wow">
+    <!-- Start Hero Section -->
+    <section class="hero-section" id="about">
+        <div class="container">
+            <div class="row align-items-center mt-5 pt-lg-5">
+                <!-- Text Content -->
+                <div class="col-lg-7 order-2 order-lg-1 mt-5 mt-lg-0 text-center text-lg-start" style="    margin-bottom: 140px;">
+                    <div class="content-text">
+                        <span class="addresses-section d-inline-block mb-3 wow zoomOut">Welcome</span>
+                        <h1 class="fw-bold mb-4 text-capitalize lh-base wow fadeInLeftBig">
+                            I'm <span class="text-highlight">Anas Al-Shenti</span> <br> 
+                            Front‑End <span class="text-highlight">Developer</span>
+                        </h1>
+                        <p class="text-capitalize lh-base lead text-muted wow fadeInLeftBig">
+                            Specialized in building modern, responsive websites using HTML, CSS, JavaScript, Vue.js, and WordPress. Focused on user experience and creating high‑quality interfaces that work seamlessly across all browsers and devices.
+                        </p>
+                        <div class="mt-4 wow fadeInUpBig d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+                            <button class="btn btn-primary-custom rounded text-capitalize">Contact Me</button>
+                            <button class="btn btn-outline-custom rounded d-flex align-items-center gap-2 text-capitalize">
                                 Portfolio
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" > <path d="M14.4301 18.82C14.2401 18.82 14.0501 18.75 13.9001 18.6C13.6101 18.31 13.6101 17.83 13.9001 17.54L19.4401 12L13.9001 6.46C13.6101 6.17 13.6101 5.69 13.9001 5.4C14.1901 5.11 14.6701 5.11 14.9601 5.4L21.0301 11.47C21.3201 11.76 21.3201 12.24 21.0301 12.53L14.9601 18.6C14.8101 18.75 14.6201 18.82 14.4301 18.82Z" fill="#2287A3"/> <path d="M20.33 12.75H3.5C3.09 12.75 2.75 12.41 2.75 12C2.75 11.59 3.09 11.25 3.5 11.25H20.33C20.74 11.25 21.08 11.59 21.08 12C21.08 12.41 20.74 12.75 20.33 12.75Z" fill="#2287A3"/> </svg>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                                    <path d="M14.4301 18.82C14.2401 18.82 14.0501 18.75 13.9001 18.6C13.6101 18.31 13.6101 17.83 13.9001 17.54L19.4401 12L13.9001 6.46C13.6101 6.17 13.6101 5.69 13.9001 5.4C14.1901 5.11 14.6701 5.11 14.9601 5.4L21.0301 11.47C21.3201 11.76 21.3201 12.24 21.0301 12.53L14.9601 18.6C14.8101 18.75 14.6201 18.82 14.4301 18.82Z" fill="currentColor"/> 
+                                    <path d="M20.33 12.75H3.5C3.09 12.75 2.75 12.41 2.75 12C2.75 11.59 3.09 11.25 3.5 11.25H20.33C20.74 11.25 21.08 11.59 21.08 12C21.08 12.41 20.74 12.75 20.33 12.75Z" fill="currentColor"/> 
+                                </svg>
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                            <div class="content-img position-relative">
-                                <img style="right: -80px; top: -30px; max-width: 53%;" class="img-fluid position-absolute wow fadeInRightBig" src="img/hero/img-hero2.png" alt="hero decoration">
-                                <img class="pd-sm img-fluid position-relative z-index-1  wow fadeInRightBig" style="max-width: 53% !important ;margin: 13px 32px 0 252px;" src="img/hero/img-hero1.png" alt="Anas Al-Shenti portrait">
-                            
-                            </div>
+                </div>
+                <!-- Image Content -->
+                <div class="col-lg-5 order-1 order-lg-2">
+                    <div class="hero-image-wrapper position-relative text-center wow fadeInRightBig">
+                        <img class="img-fluid hero-main-img position-relative z-index-1" src="img/hero/img-hero1.png" alt="Anas Al-Shenti portrait">
+                    </div>
                 </div>
             </div>
-        </section>
-    <!-- End hero-section -->
+        </div>
+    </section>
+    <!-- End Hero Section -->
 
-    <!-- start my-info stats -->
-        <section class="my-info position-relative">
-                <div style="top: -50px;" class="container bg-white Small shadow rounded position-absolute start-0 end-0">
-                        <div class="d-flex flex-wrap">
-                            <div class="content-text w-25 ps-5 pt-4 mt-3 d-flex mt-3 ">
-                                <div>
-                                    <span class="fw-bold fadeOut animated infinite">+3</span>
-                                    <p class="text-capitalize wow fadeInLeftBig mt-2">Years of Experience</p>
-                                </div>
-                                <hr>
-                            </div>
-                            <div class="content-text w-25 d-flex mt-3 ps-5 pt-4">
-                                <div>
-                                    <span class="fw-bold fadeOut animated infinite">+15</span>
-                                    <p class="text-capitalize mt-2 fadeInUpBig wow">Completed Projects</p>
-                                </div>
-                                <hr>
-                            </div>
-                            <div class="content-text w-25 d-flex mt-3 ps-5 pt-4">
-                                <div>
-                                    <span class="fw-bold fadeOut animated infinite">+12</span>
-                                    <p class="fs-sm-ptext-capitalize mt-2 fadeInUpBig wow">Happy Clients</p>
-                                </div>
-                                <hr>
-                            </div>
-                            <div class="content-text w-25 d-flex mt-3  ps-4 pt-4">
-                                <div>
-                                    <span class="fw-bold fadeOut animated infinite">+8</span>
-                                    <p class="text-capitalize mt-2 wow fadeInRightBig">Freelance Projects</p>
-                                </div>
-                            </div>
-                    </div>  
+    <!-- Start My-info Stats -->
+    <section class="my-info">
+        <div class="container">
+            <div class="stats-box bg-white shadow rounded p-4 p-md-0">
+                <div class="row text-center text-md-start g-4 align-items-center ">
+                    <div class="col-6 col-md-3 stat-item box" style="padding: 14px 81px;     text-align: center;">
+                        <h3 class="fw-bold fs-1 fadeOut animated infinite text-highlight">+3</h3>
+                        <p class="text-capitalize wow fadeInLeftBig mt-2 text-muted mb-0">Years of Experience</p>
+                    </div>
+                    <div class="col-6 col-md-3 stat-item box" style="padding: 14px 81px;     text-align: center;">
+                        <h3 class="fw-bold fs-1 fadeOut animated infinite text-highlight">+15</h3>
+                        <p class="text-capitalize wow fadeInUpBig mt-2 text-muted mb-0">Completed Projects</p>
+                    </div>
+                    <div class="col-6 col-md-3 stat-item box" style="padding: 14px 81px;     text-align: center;">
+                        <h3 class="fw-bold fs-1 fadeOut animated infinite text-highlight">+12</h3>
+                        <p class="text-capitalize wow fadeInUpBig mt-2 text-muted mb-0">Happy Clients</p>
+                    </div>
+                    <div class="col-6 col-md-3 stat-item last-stat box" style="padding: 14px 81px;     text-align: center;">
+                        <h3 class="fw-bold fs-1 fadeOut animated infinite text-highlight">+8</h3>
+                        <p class="text-capitalize wow fadeInRightBig mt-2 text-muted mb-0">Freelance Projects</p>
+                    </div>
                 </div>
-        </section>
-    <!-- end my-info -->
-
-    <!-- start Portfolio section -->
-        <section class="Protfile my-5 pt-4 position-relative" id="Protfile">     
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="content-text">
-                            <span class="addresses-section wow zoomOut">Portfolio</span>
-                            <h2 class="fw-bold mt-5 w-75 text-capitalize lh-base wow fadeInDown">Why choose me for your <span>digital project</span> ?</h2>
-                            <p class="Lead text-capitalize mt-3 wow fadeInLeft">I deliver an exceptional design experience and bring your vision to life, turning your ideas into interactive, attractive, and fully responsive interfaces.</p>
-                            <button class="btn btn-contact-me btn-outline-light rounded mt-4 text-capitalize wow fadeInUpBig">Contact Me</button>
-                            <img class="img-fluid ms-3" src="img/protfile/img-button.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">  
-                        <img style="top: -105px; opacity: 0.7;" class="img-fluid position-absolute end-0 wow fadeInRight" src="img/protfile/bg-Protfile.png" alt="background">               
-                        <div class="content-img position-relative">
-                            <div class="row">                          
-                                <div class="col-6">
-                                    <img class="img-fluid wow fadeInLeft rounded-3" src="img/protfile/img-protfile-1.png" alt="project 1">
-                                </div>
-                                <div class="col-6 position-relative">
-                                    <img style="top:-18px" class="w-sm-90 img-fluid position-absolute wow fadeInDown rounded-3" src="img/protfile/img-protfile-2.png" alt="project 2">
-                                </div>                             
-                            </div>
-                            <div class="row mt-3">
-                                <div class="col-6">
-                                    <img class="img-fluid mt-3 wow fadeInLeft rounded-3" src="img/protfile/img-protfile-3.png" alt="project 3">
-                                </div>
-                                <div class="col-6 position-relative">
-                                    <img style="top:-18px" class="w-sm-90 img-fluid mt-3 position-absolute wow fadeInRight rounded-3" src="img/protfile/img-protfile-4.png" alt="project 4">
-                                </div>              
-                            </div>
-                        </div>
-                    </div>
-                </div>              
             </div>
-        </section>
-    <!-- End Portfolio section -->
+        </div>
+    </section>
+    <!-- End My-info Stats -->
 
-    <!-- start Skills section -->
-        <section class="Skills my-5 position-relative" id="Skills">
-            <div class="bg-box-left position-absolute start-0 end-0"></div>
-            <div class="container">
-                <div class="row mt-5 pt-5">
-                    <div class="col-md-6">
-                        <div class="box-left">
-                            <span class="addresses-section wow zoomOut">Skills</span>
-                            <h2 class="fw-bold mt-5 w-50 text-capitalize lh-base wow zoomInDown">What can I do for <span>your needs</span> ?</h2>
-                            <p class="Lead text-capitalize mt-3 wow zoomInLeft">I have hands‑on experience in front‑end development using HTML, CSS, JavaScript, Vue.js, and WordPress. I focus on building modern, responsive interfaces that work perfectly across all browsers.</p>
-                            <div class="mt-4 wow zoomInUp">
-                                <button class="btn btn-outline-light rounded position-relative z-index-1 text-capitalize wow zoomInLeft">Contact Me</button> 
-                                <a class="ms-3" href="tel:+970567769902"><img class="img-fluid" src="img/Skills/icons/icon-Skills1.png" alt="call"></a> 
-                                <a class="ms-3" href="#"><img class="img-fluid" src="img/Skills/icons/icon-Skills2.png" alt="social"></a> 
-                            </div>
+    <!-- Start Portfolio Section -->
+    <section class="portfolio my-5 py-5 position-relative" id="Portfolio">     
+        <!-- Background element hidden on mobile -->
+        <img class="portfolio-bg position-absolute end-0 d-none d-lg-block wow fadeInRight" src="img/protfile/bg-Protfile.png" alt="background">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0 text-center text-lg-start">
+                    <div class="content-text pe-lg-5" style="    margin-bottom: 150px;">
+                        <span class="addresses-section d-inline-block mb-3 wow zoomOut">Portfolio</span>
+                        <h2 class="fw-bold mt-3 mb-4 text-capitalize lh-base wow fadeInDown">Why choose me for your <span class="text-highlight"> <br>digital project</span>?</h2>
+                        <p class="lead text-capitalize text-muted mb-4 wow fadeInLeft">I deliver an exceptional design experience and bring your vision to life, turning your ideas into interactive, attractive, and fully responsive interfaces.</p>
+                        <div class=" d-flex justify-content-center justify-content-lg-start align-items-center gap-3" style="    margin-top: 55px;">
+                            <button class="btn btn-primary-custom rounded text-capitalize wow fadeInUpBig">Contact Me</button>
+                            <img class="img-fluid wow fadeInUpBig" src="img/protfile/img-button.svg" alt="" style="width: 50px;">
                         </div>
                     </div>
-                    <div class="col-md-6">                 
-                        <div class="box-right">
-                            <div class="row align-items-center mb-4">
-                                <div class="col-sm-2 wow zoomInDown text-center">
-                                    <div class="content-svg mx-auto">
-                                        <svg width="32" height="32" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M27.6728 26.0245L20.7147 19.0663C22.6108 16.7473 23.5431 13.7881 23.3187 10.801C23.0942 7.81379 21.7302 5.02716 19.5088 3.01747C17.2874 1.00778 14.3786 -0.0712239 11.3839 0.00365169C8.38926 0.0785273 5.53795 1.30155 3.41975 3.41975C1.30155 5.53795 0.0785273 8.38926 0.00365169 11.3839C-0.0712239 14.3786 1.00778 17.2874 3.01747 19.5088C5.02716 21.7302 7.81379 23.0942 10.801 23.3187C13.7881 23.5431 16.7473 22.6108 19.0663 20.7147L26.0245 27.6728C26.2443 27.8851 26.5388 28.0026 26.8444 28C27.1501 27.9973 27.4424 27.8747 27.6586 27.6586C27.8747 27.4424 27.9973 27.1501 28 26.8444C28.0026 26.5388 27.8851 26.2443 27.6728 26.0245ZM11.6944 21.0201C9.84996 21.0201 8.04693 20.4731 6.51334 19.4484C4.97974 18.4237 3.78444 16.9672 3.0786 15.2632C2.37277 13.5591 2.18809 11.6841 2.54792 9.87505C2.90775 8.06605 3.79594 6.40437 5.10016 5.10016C6.40437 3.79594 8.06605 2.90775 9.87505 2.54792C11.6841 2.18809 13.5591 2.37277 15.2632 3.0786C16.9672 3.78444 18.4237 4.97974 19.4484 6.51334C20.4731 8.04693 21.0201 9.84996 21.0201 11.6944C21.0173 14.1669 20.0339 16.5373 18.2856 18.2856C16.5373 20.0339 14.1669 21.0173 11.6944 21.0201Z" fill="white"/> </svg>      
-                                    </div>                         
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="content-text ps-3 wow zoomInDown">
-                                        <h3 class="h4">HTML, CSS & Bootstrap</h3>
-                                        <p>Building modern, responsive layouts that work perfectly on all devices.</p>
-                                    </div>
-                                </div>
+                </div>
+                <div class="col-lg-6">  
+                    <div class="portfolio-grid position-relative">
+                        <div class="row g-3">
+                            <div class="col-6 mt-4">
+                                <img class="img-fluid wow fadeInLeft rounded-3 shadow-sm" src="img/protfile/img-protfile-1.png" alt="project 1">
+                                <img class="img-fluid wow fadeInLeft rounded-3 shadow-sm mt-3" src="img/protfile/img-protfile-3.png" alt="project 3">
                             </div>
-                            <div class="row align-items-center mb-4">
-                                <div class="col-sm-2 text-center">
-                                    <div class="content-svg wow zoomInLeft mx-auto">
-                                        <p class="m-0">JS</p>
-                                    </div>                         
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="content-text ps-3 wow zoomInRight">
-                                        <h3 class="h4">JavaScript & Vue.js</h3>
-                                        <p>Developing interactive, dynamic front-end interfaces with modern frameworks.</p>
-                                    </div>
-                                </div>
+                            <div class="col-6 mb-4">
+                                <img class="img-fluid wow fadeInDown rounded-3 shadow-sm" src="img/protfile/img-protfile-2.png" alt="project 2">
+                                <img class="img-fluid mt-3 wow fadeInRight rounded-3 shadow-sm" src="img/protfile/img-protfile-4.png" alt="project 4">
+                            </div>                             
+                        </div>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- Start Skills Section -->
+    <section class="skills my-5 py-5 position-relative" id="Skills">
+        <div class="bg-box-left position-absolute start-0 w-50 h-100 d-none d-lg-block"></div>
+        <div class="container position-relative z-index-1">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0 text-center text-lg-start">
+                    <div class="box-left pe-lg-5">
+                        <span class="addresses-section d-inline-block mb-3 wow zoomOut">Skills</span>
+                        <h2 class="fw-bold mt-3 mb-4 text-capitalize lh-base wow zoomInDown">What can I do for <span class="text-highlight">your needs</span>?</h2>
+                        <p class="lead text-capitalize text-muted mb-4 wow zoomInLeft">I have hands‑on experience in front‑end development using HTML, CSS, JavaScript, Vue.js, and WordPress. I focus on building modern, responsive interfaces that work perfectly across all browsers.</p>
+                        <div class="d-flex justify-content-center justify-content-lg-start align-items-center gap-3 wow zoomInUp">
+                            <button class="btn btn-primary-custom rounded text-capitalize">Contact Me</button> 
+                            <a href="tel:+970567769902" class="social-icon-link"><img class="img-fluid" src="img/Skills/icons/icon-Skills1.png" alt="call"></a> 
+                            <a href="#" class="social-icon-link"><img class="img-fluid" src="img/Skills/icons/icon-Skills2.png" alt="social"></a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">                 
+                    <div class="box-right ps-lg-4">
+                        <!-- Skill 1 -->
+                        <div class="skilss d-flex flex-column flex-sm-row align-items-center text-center text-sm-start mb-4 wow zoomInDown">
+                            <div class="skill-icon mx-auto mx-sm-0 mb-3 mb-sm-0 d-flex justify-content-center align-items-center">
+                                <svg width="32" height="32" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M27.6728 26.0245L20.7147 19.0663C22.6108 16.7473 23.5431 13.7881 23.3187 10.801C23.0942 7.81379 21.7302 5.02716 19.5088 3.01747C17.2874 1.00778 14.3786 -0.0712239 11.3839 0.00365169C8.38926 0.0785273 5.53795 1.30155 3.41975 3.41975C1.30155 5.53795 0.0785273 8.38926 0.00365169 11.3839C-0.0712239 14.3786 1.00778 17.2874 3.01747 19.5088C5.02716 21.7302 7.81379 23.0942 10.801 23.3187C13.7881 23.5431 16.7473 22.6108 19.0663 20.7147L26.0245 27.6728C26.2443 27.8851 26.5388 28.0026 26.8444 28C27.1501 27.9973 27.4424 27.8747 27.6586 27.6586C27.8747 27.4424 27.9973 27.1501 28 26.8444C28.0026 26.5388 27.8851 26.2443 27.6728 26.0245ZM11.6944 21.0201C9.84996 21.0201 8.04693 20.4731 6.51334 19.4484C4.97974 18.4237 3.78444 16.9672 3.0786 15.2632C2.37277 13.5591 2.18809 11.6841 2.54792 9.87505C2.90775 8.06605 3.79594 6.40437 5.10016 5.10016C6.40437 3.79594 8.06605 2.90775 9.87505 2.54792C11.6841 2.18809 13.5591 2.37277 15.2632 3.0786C16.9672 3.78444 18.4237 4.97974 19.4484 6.51334C20.4731 8.04693 21.0201 9.84996 21.0201 11.6944C21.0173 14.1669 20.0339 16.5373 18.2856 18.2856C16.5373 20.0339 14.1669 21.0173 11.6944 21.0201Z" fill="white"/> </svg>
+                            </div>                         
+                            <div class="content-text ps-sm-4">
+                                <h3 class="h5 fw-bold">HTML, CSS & Bootstrap</h3>
+                                <p class="text-muted mb-0">Building modern, responsive layouts that work perfectly on all devices.</p>
                             </div>
-                            <div class="row align-items-center">
-                                <div class="col-sm-2 text-center">
-                                    <div class="content-svg wow zoomInUp mx-auto">
-                                        <p class="m-0">WP</p>
-                                    </div>                         
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="content-text ps-3 wow zoomInUp">
-                                        <h3 class="h4">WordPress & Git/GitHub</h3>
-                                        <p>Version control, project management, and building professional websites.</p>
-                                    </div>
-                                </div>
+                        </div>
+                        <!-- Skill 2 -->
+                        <div class="skilss d-flex flex-column flex-sm-row align-items-center text-center text-sm-start mb-4 wow zoomInRight">
+                            <div class="skill-icon mx-auto mx-sm-0 mb-3 mb-sm-0 d-flex justify-content-center align-items-center">
+                                <p class="m-0 fw-bold text-white fs-5">JS</p>
+                            </div>                         
+                            <div class="content-text ps-sm-4">
+                                <h3 class="h5 fw-bold">JavaScript & Vue.js</h3>
+                                <p class="text-muted mb-0">Developing interactive, dynamic front-end interfaces with modern frameworks.</p>
+                            </div>
+                        </div>
+                        <!-- Skill 3 -->
+                        <div class="skilss d-flex flex-column flex-sm-row align-items-center text-center text-sm-start wow zoomInUp">
+                            <div class="skill-icon mx-auto mx-sm-0 mb-3 mb-sm-0 d-flex justify-content-center align-items-center">
+                                <p class="m-0 fw-bold text-white fs-5">WP</p>
+                            </div>                         
+                            <div class="content-text ps-sm-4">
+                                <h3 class="h5 fw-bold">WordPress & Git/GitHub</h3>
+                                <p class="text-muted mb-0">Version control, project management, and building professional websites.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    <!-- End Skills section -->
+        </div>
+    </section>
+    <!-- End Skills Section -->
 
-    <!-- Start Testimonials section -->
-        <section class="testimonials position-relative" id="Testimonials">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="box-left">
-                            <span class="addresses-section wow zoomOut">Testimonials</span>
-                            <h2 class="fw-bold mt-5 text-capitalize lh-base wow fadeInDown">Some recommendations from <span class="color-span">clients</span> I've worked with</h2>
-                            <img class="img-fluid wow zoomInUp mt-4" src="img/Testimonials/img-testimonials.png" alt="testimonials illustration">
-                        </div>
+    <!-- Start Testimonials Section -->
+    <section class="testimonials py-5 position-relative" id="Testimonials">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+                    <div class="box-left">
+                        <span class="addresses-section d-inline-block mb-3 wow zoomOut">Testimonials</span>
+                        <h2 class="fw-bold mt-3 text-capitalize lh-base wow fadeInDown">Some recommendations from <span class="text-highlight">clients</span> I've worked with</h2>
+                        <img class="img-fluid wow zoomInUp mt-4 d-none d-lg-inline-block" src="img/Testimonials/img-testimonials.png" alt="testimonials illustration" style="max-width: 80%;">
                     </div>
-                    <div class="col-lg-6">               
-                        <div class="content-slide d-flex align-items-center justify-content-end w-100 position-relative">
-                            <div class="border-1 position-relative d-none d-lg-block">
-                                <img style="top: 67px;left: 29px;position: absolute; width: 45px;" src="img/Testimonials/slide/img-slide-2.png" alt="">
-                                <img style="bottom: 82px;left: 27px;position: absolute; width: 40px;" src="img/Testimonials/slide/img-slide-3.png" alt="">
-                                <img style="bottom: 241px;right: 13px;position: absolute;z-index: 1; width: 50px;" src="img/Testimonials/slide/img-slide-4.png" alt="">
-                                <img style="bottom: 82px;right: 27px;position: absolute; width: 45px;" src="img/Testimonials/slide/img-slide-2.png" alt="">
-                                <img style="top: 26px;right: 67px;position: absolute; width: 40px;" src="img/Testimonials/slide/img-slide-3.png" alt="">
-                                <div class="border-2 position-relative">
-                                    <img style="bottom: -16px;left: 192px;position: absolute; width: 45px;" src="img/Testimonials/slide/img-slide-5.png" alt="">
-                                    <img style="top: 172px;left: -12px;position: absolute; width: 40px;" src="img/Testimonials/slide/img-slide-6.png" alt="">
-                                    <div class="border-3">
-                                        <img style="position: absolute;top: 5px;left: 192px; width: 55px;" src="img/Testimonials/slide/img-slide-1.png" alt="">
-                                    </div>
-                                </div>
+                </div>
+                <div class="col-lg-6 position-relative">              
+                    <!-- Slider Container -->
+                    <div class="slider-wrapper position-relative p-4 rounded-4 shadow-sm bg-white border">
+                        <div class="owl-carousel position-relative z-index-1">
+                            <div class="item text-center">
+                                <img class="d-block mx-auto rounded-circle mb-3 slider-avatar" src="img/Testimonials/slide/img-slide-1.png" alt="client">
+                                <p class="lead lh-base px-lg-4 text-muted fst-italic">"Excellent work Anas! You are truly talented, great communicator. I advise everyone to work with him."</p>
+                                <span class="fw-bold d-block mt-3 text-dark">Ahmed Salah</span>   
                             </div>
-                            <div class="owl-carousel position-relative">
-                                <div class="item text-center">
-                                    <img class="d-block mx-auto rounded-circle" src="img/Testimonials/slide/img-slide-1.png" alt="client">
-                                    <p class="Lead lh-base mt-3 px-2">" Excellent work Anas! You are truly talented, great communicator. I advise everyone to work with him."</p>
-                                    <span class="fw-bold d-block mt-2">Ahmed Salah</span>   
-                                </div>
-                                <div class="item text-center">
-                                    <img class="d-block mx-auto rounded-circle" src="img/Testimonials/slide/img-slide-1.png" alt="client">
-                                    <p class="Lead lh-base mt-3 px-2">" Anas delivered the project before deadline with clean code and pixel‑perfect design. Highly recommended!"</p>
-                                    <span class="fw-bold d-block mt-2">Nour El Huda</span>   
-                                </div>
-                                <div class="item text-center">
-                                    <img class="d-block mx-auto rounded-circle" src="img/Testimonials/slide/img-slide-1.png" alt="client">
-                                    <p class="Lead lh-base mt-3 px-2">" Very professional in Vue.js and responsive design. He understood our needs perfectly."</p>
-                                    <span class="fw-bold d-block mt-2">Mohammed Jouda</span>   
-                                </div>
-                                <div class="item text-center">
-                                    <img class="d-block mx-auto rounded-circle" src="img/Testimonials/slide/img-slide-1.png" alt="client">
-                                    <p class="Lead lh-base mt-3 px-2">" Great experience working with Anas. He turned our ideas into a modern, fast website."</p>
-                                    <span class="fw-bold d-block mt-2">Lina Tannous</span>   
-                                </div>
-                                <div class="item text-center">
-                                    <img class="d-block mx-auto rounded-circle" src="img/Testimonials/slide/img-slide-1.png" alt="client">
-                                    <p class="Lead lh-base mt-3 px-2">" Anas is a skilled front-end developer with an eye for detail and user experience."</p>
-                                    <span class="fw-bold d-block mt-2">Rami Karam</span>   
-                                </div>
+                            <div class="item text-center">
+                                <img class="d-block mx-auto rounded-circle mb-3 slider-avatar" src="img/Testimonials/slide/img-slide-1.png" alt="client">
+                                <p class="lead lh-base px-lg-4 text-muted fst-italic">"Anas delivered the project before deadline with clean code and pixel‑perfect design. Highly recommended!"</p>
+                                <span class="fw-bold d-block mt-3 text-dark">Nour El Huda</span>   
                             </div>
-                        </div>    
+                            <div class="item text-center">
+                                <img class="d-block mx-auto rounded-circle mb-3 slider-avatar" src="img/Testimonials/slide/img-slide-1.png" alt="client">
+                                <p class="lead lh-base px-lg-4 text-muted fst-italic">"Very professional in Vue.js and responsive design. He understood our needs perfectly."</p>
+                                <span class="fw-bold d-block mt-3 text-dark">Mohammed Jouda</span>   
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-lg-6">
+                                            <div class="">
+                            <div class="owl-carousel position-absolute">
+                                <div class="item ">
+                                    <img style="width: 13%; margin-left: 120px;" class=" py-3" src="img/Testimonials/slide/img-slide-1.png" alt="">
+                                    <p class="Lead lh-base text-capitalize">" Very nice work Ahmed ! you are really a talented  person in your field, a good communicator and a servant, I advise everyone to deal with him. "</p>
+                                    <span class="fw-bold text-capitalize">Amer Nader</span>   
+                                </div>
+                                <div class="item ">
+                                    <img style="width: 13%; margin-left: 120px;" class="py-3" src="img/Testimonials/slide/img-slide-1.png" alt="">
+                                    <p class="Lead lh-base text-capitalize">" Very nice work Ahmed ! you are really a talented  person in your field, a good communicator and a servant, I advise everyone to deal with him. "</p>
+                                    <span class="fw-bold text-capitalize">Amer Nader</span>   
+                                </div>
+                                <div class="item ">
+                                    <img style="width: 13%; margin-left: 120px;" class="py-3" src="img/Testimonials/slide/img-slide-1.png" alt="">
+                                    <p class="Lead lh-base text-capitalize">" Very nice work Ahmed ! you are really a talented  person in your field, a good communicator and a servant, I advise everyone to deal with him. "</p>
+                                    <span class="fw-bold text-capitalize">Amer Nader</span>   
+                                </div>
+                                <div class="item ">
+                                    <img style="width: 13%; margin-left: 120px;" class="py-3" src="img/Testimonials/slide/img-slide-1.png" alt="">
+                                    <p class="Lead lh-base text-capitalize">" Very nice work Ahmed ! you are really a talented  person in your field, a good communicator and a servant, I advise everyone to deal with him. "</p>
+                                    <span class="fw-bold text-capitalize">Amer Nader</span>   
+                                </div>
+                                <div class="item ">
+                                    <img style="width: 13%; margin-left: 120px;" class="py-3" src="img/Testimonials/slide/img-slide-1.png" alt="">
+                                    <p class="Lead lh-base text-capitalize">" Very nice work Ahmed ! you are really a talented  person in your field, a good communicator and a servant, I advise everyone to deal with him. "</p>
+                                    <span class="fw-bold text-capitalize">Amer Nader</span>   
+                                </div>
+                                <div class="item ">
+                                    <img style="width: 13%; margin-left: 120px;" class="py-3" src="img/Testimonials/slide/img-slide-1.png" alt="">
+                                    <p class="Lead lh-base text-capitalize">" Very nice work Ahmed ! you are really a talented  person in your field, a good communicator and a servant, I advise everyone to deal with him. "</p>
+                                    <span class="fw-bold text-capitalize">Amer Nader</span>   
+                                </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- Start Call to Action Section -->
+    <section class="cta-section py-5">
+        <div class="container">      
+            <div class="cta-box rounded-4 position-relative p-5 shadow-lg overflow-hidden">
+                <!-- Background Decorations -->
+                <div class="cta-decor cta-decor-left"></div>
+                <div class="cta-decor cta-decor-right"></div>
+                
+                <div class="row align-items-center position-relative z-index-1">
+                    <div class="col-lg-9 text-center text-lg-start mb-4 mb-lg-0">
+                        <h2 class="text-white fw-bold text-capitalize wow fadeInDown mb-3">Do you have a project in mind?</h2>
+                        <p class="text-white text-opacity-75 lead mb-0 text-capitalize wow bounceIn">Let's work together to build something amazing. I'm ready to create a modern, fast, and user‑friendly web experience for you.</p>
+                    </div>
+                    <div class="col-lg-3 text-center text-lg-end">
+                        <button class="btn btn-light btn-lg text-primary-custom fw-bold rounded-pill px-5 py-3 text-capitalize shadow wow fadeInRight">Hire Me</button>
                     </div>
                 </div>
             </div>
-        </section>
-    <!-- End Testimonials section -->
-
-    <!-- Start Call to Action section -->
-        <section class="do-you-have mt-5 pt-5">
-            <div class="container">      
-                <div class="content rounded position-relative ">
-                    <svg style="position: absolute;bottom: -31px;left: -32px;" width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="24" cy="24" r="23.5" transform="matrix(1 0 0 -1 12 60)" stroke="white"/>
-                        <g filter="url(#filter0_f_17_2036)">
-                        <circle cx="36.0903" cy="36.0903" r="11.0903" fill="white"/>
-                        </g>
-                        <defs>
-                        <filter id="filter0_f_17_2036" x="0.67289" y="0.67289" width="70.8349" height="70.8349" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                        <feGaussianBlur stdDeviation="12.1636" result="effect1_foregroundBlur_17_2036"/>
-                        </filter>
-                        </defs>
-                    </svg>
-                    <svg style="position: absolute;right: -33px;top: -30px;"  width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="24" cy="24" r="23.5" transform="matrix(1 0 0 -1 12 60)" stroke="white"/>
-                        <g filter="url(#filter0_f_17_2036)">
-                        <circle cx="36.0903" cy="36.0903" r="11.0903" fill="white"/>
-                        </g>
-                        <defs>
-                        <filter id="filter0_f_17_2036" x="0.67289" y="0.67289" width="70.8349" height="70.8349" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                        <feGaussianBlur stdDeviation="12.1636" result="effect1_foregroundBlur_17_2036"/>
-                        </filter>
-                        </defs>
-                    </svg>
-                    <div class="row py-5">
-                        <div class="col-sm-9">
-                            <div class="content-text ps-5">
-                                <h2 class="text-white Lead fw-bold text-capitalize wow fadeInDown">Do you have a project in mind?</h2>
-                                <p class="text-white Lead mt-3 text-capitalize wow bounceIn">Let's work together to build something amazing. I'm ready to create a modern, fast, and user‑friendly web experience for you.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 d-flex align-items-center justify-content-center">
-                            <button class="btn btn-hire-me text-capitalize wow fadeInRight">Hire Me</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <!-- End Call to Action section -->
+        </div>
+    </section>
+    <!-- End Call to Action Section -->
      
     <!-- Start Footer -->
-        <footer class="footer mt-5 pt-5 mb-3">
-            <div class="container">
-                <div class="row">
-                    <div class="content-footer d-flex flex-wrap">
-                        <div class="col-sm-4 align-items-center d-flex">
-                            <p class="m-0">© 2025, All rights reserved</p>
-                        </div>
-                        <div class="col-sm-4 align-items-center justify-content-center d-flex">
-                            <p class="m-0">Designed by Anas Al-Shenti</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="icons-social-footer text-end">
-                                <a class="fadeOutUp animated infinite" href="mailto:anas20226878@gmail.com">
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M2.5 15H11.25C13.375 15 15 16.625 15 18.75C15 20.875 13.375 22.5 11.25 22.5H3.75C3 22.5 2.5 22 2.5 21.25V8.75C2.5 8 3 7.5 3.75 7.5H10C12.125 7.5 13.75 9.125 13.75 11.25C13.75 13.375 12.125 15 10 15H2.5Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10"/> <path d="M17.5 17.5H27.5C27.5 14.75 25.25 12.5 22.5 12.5C19.75 12.5 17.5 14.75 17.5 17.5ZM17.5 17.5C17.5 20.25 19.75 22.5 22.5 22.5H24.625" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M24.375 9.375H20.625" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </svg>
-                                </a> 
-                                <a class="ms-3 fadeOutUp animated infinite" href="#">
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M23.125 5.98755C19.875 11.675 13.6125 14.9375 7.0875 14.35L3.125 13.9875" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M6.875 24.2126C10.125 18.5251 16.3875 15.2626 22.9125 15.8501L26.875 16.2126" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M15 27.5C21.9036 27.5 27.5 21.9036 27.5 15C27.5 8.09644 21.9036 2.5 15 2.5C8.09644 2.5 2.5 8.09644 2.5 15C2.5 21.9036 8.09644 27.5 15 27.5Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> <path d="M9.5376 3.75L13.5126 8.6875C16.1751 11.9875 18.0626 15.825 19.0626 19.9375L20.5751 26.175" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> </svg>
-                                </a> 
-                                <a class="ms-3 fadeOutUp animated infinite" href="tel:+970567769902">
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.625 25.75C10.5 26.875 12.75 27.5 15 27.5C21.875 27.5 27.5 21.875 27.5 15C27.5 8.125 21.875 2.5 15 2.5C8.125 2.5 2.5 8.125 2.5 15C2.5 17.25 3.125 19.375 4.125 21.25L2.94044 25.806C2.74572 26.5549 3.43892 27.2317 4.18299 27.0191L8.625 25.75Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M20.625 18.5606C20.625 18.7631 20.5799 18.9713 20.4842 19.1738C20.3884 19.3763 20.2645 19.5675 20.1011 19.7475C19.8251 20.0513 19.5208 20.2706 19.1772 20.4113C18.8392 20.5519 18.473 20.625 18.0787 20.625C17.5041 20.625 16.89 20.49 16.2422 20.2144C15.5943 19.9388 14.9465 19.5675 14.3043 19.1006C13.6564 18.6281 13.0424 18.105 12.4565 17.5256C11.8763 16.9406 11.3523 16.3275 10.8848 15.6863C10.4228 15.045 10.051 14.4038 9.78061 13.7681C9.5102 13.1269 9.375 12.5137 9.375 11.9287C9.375 11.5462 9.4426 11.1806 9.5778 10.8431C9.71301 10.5 9.92708 10.185 10.2257 9.90375C10.5862 9.54938 10.9805 9.375 11.3974 9.375C11.5551 9.375 11.7129 9.40875 11.8537 9.47625C12.0002 9.54375 12.1298 9.645 12.2312 9.79125L13.5381 11.6306C13.6395 11.7713 13.7128 11.9006 13.7635 12.0244C13.8142 12.1425 13.8423 12.2606 13.8423 12.3675C13.8423 12.5025 13.8029 12.6375 13.724 12.7669C13.6508 12.8962 13.5438 13.0312 13.4086 13.1662L12.9804 13.6106C12.9184 13.6725 12.8903 13.7456 12.8903 13.8356C12.8903 13.8806 12.8959 13.92 12.9072 13.965C12.9241 14.01 12.941 14.0437 12.9522 14.0775C13.0536 14.2631 13.2283 14.505 13.4762 14.7975C13.7297 15.09 14.0001 15.3881 14.293 15.6863C14.5972 15.9844 14.8901 16.26 15.1887 16.5131C15.4817 16.7606 15.7239 16.9294 15.9154 17.0306C15.9436 17.0419 15.9774 17.0587 16.0168 17.0756C16.0619 17.0925 16.107 17.0981 16.1577 17.0981C16.2534 17.0981 16.3267 17.0644 16.3886 17.0025L16.8168 16.5806C16.9576 16.44 17.0928 16.3331 17.2224 16.2656C17.352 16.1869 17.4815 16.1475 17.6224 16.1475C17.7294 16.1475 17.8421 16.17 17.966 16.2206C18.0899 16.2713 18.2195 16.3444 18.3604 16.44L20.225 17.7619C20.3715 17.8631 20.4729 17.9812 20.5349 18.1219C20.5912 18.2625 20.625 18.4031 20.625 18.5606Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10"/></svg>
-                                </a> 
-                                <a class="ms-3 fadeOutUp animated infinite" href="#">
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M15 7.5H12.5C11.125 7.5 10 8.625 10 10C10 11.375 11.125 12.5 12.5 12.5H15V7.5Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10"/>
-                                        <path d="M15 12.5H12.5C11.125 12.5 10 13.625 10 15C10 16.375 11.125 17.5 12.5 17.5H15V12.5Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10"/>
-                                        <path d="M15 17.5H12.5C11.125 17.5 10 18.625 10 20C10 21.375 11.125 22.5 12.5 22.5C13.875 22.5 15 21.375 15 20V17.5Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10"/>
-                                        <path d="M15 7.5H17.5C18.875 7.5 20 8.625 20 10C20 11.375 18.875 12.5 17.5 12.5H15V7.5Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10"/>
-                                        <path d="M17.5 12.5C18.875 12.5 20 13.625 20 15C20 16.375 18.875 17.5 17.5 17.5C16.125 17.5 15 16.375 15 15C15 13.625 16.125 12.5 17.5 12.5Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10"/>
-                                        <path d="M15 27.5C21.9036 27.5 27.5 21.9036 27.5 15C27.5 8.09644 21.9036 2.5 15 2.5C8.09644 2.5 2.5 8.09644 2.5 15C2.5 21.9036 8.09644 27.5 15 27.5Z" stroke="#2287A3" stroke-width="1.5" stroke-miterlimit="10"/>
-                                        </svg>  
-                                </a> 
-                            </div>
-                        </div>
+    <footer class="footer pt-5 pb-4 mt-5 bg-light">
+        <div class="container border-top pt-4">
+            <div class="row align-items-center text-center text-md-start">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <p class="m-0 text-muted fw-semibold">© 2025, All rights reserved</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0 text-center">
+                    <p class="m-0 text-muted fw-semibold">Designed by <span class="text-highlight">Anas Al-Shenti</span></p>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <div class="social-icons d-flex justify-content-center justify-content-md-end gap-3">
+                        <a class="social-link" href="mailto:anas20226878@gmail.com">
+                            <svg width="24" height="24" viewBox="0 0 30 30" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"> <path d="M2.5 15H11.25C13.375 15 15 16.625 15 18.75C15 20.875 13.375 22.5 11.25 22.5H3.75C3 22.5 2.5 22 2.5 21.25V8.75C2.5 8 3 7.5 3.75 7.5H10C12.125 7.5 13.75 9.125 13.75 11.25C13.75 13.375 12.125 15 10 15H2.5Z" stroke-width="2" stroke-miterlimit="10"/> <path d="M17.5 17.5H27.5C27.5 14.75 25.25 12.5 22.5 12.5C19.75 12.5 17.5 14.75 17.5 17.5ZM17.5 17.5C17.5 20.25 19.75 22.5 22.5 22.5H24.625" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M24.375 9.375H20.625" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/> </svg>
+                        </a> 
+                        <a class="social-link" href="tel:+970567769902">
+                            <svg width="24" height="24" viewBox="0 0 30 30" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.625 25.75C10.5 26.875 12.75 27.5 15 27.5C21.875 27.5 27.5 21.875 27.5 15C27.5 8.125 21.875 2.5 15 2.5C8.125 2.5 2.5 8.125 2.5 15C2.5 17.25 3.125 19.375 4.125 21.25L2.94044 25.806C2.74572 26.5549 3.43892 27.2317 4.18299 27.0191L8.625 25.75Z" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a> 
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     <!-- End Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/distwow.min.js"></script>
-    <script> new WOW().init(); </script>
+
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/min.js"></script>
-  </body>
+    <!-- Initialize Plugins -->
+    <script> 
+        new WOW().init(); 
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                nav: false,
+                dots: true
+            });
+        });
+    </script>
+</body>
 </html>
