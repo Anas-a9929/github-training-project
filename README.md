@@ -69,10 +69,11 @@ cd github-training-project
 git add .
 git commit -m "Update project"
 git push
-```index.html` باستخدام المتصفح.
+```index.html` باستخدام المتصفح
+
+
 
 ## مميزات المشروع
-
 - تصميم متجاوب (Responsive Design)
 - شريط تنقل (Navbar)
 - قسم معلومات شخصية
