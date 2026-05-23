@@ -1,6 +1,4 @@
-/* ==========================================
-   Global Variables & Base Styles
-   ========================================== */
+/* Global Variables & Base Styles */
    :root {
     --primary-color: #2287A3;
     --primary-hover: #1b6c82;
@@ -13,7 +11,7 @@
 body {
     font-family: var(--font-family);
     color: var(--text-dark);
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-x: hidden; 
 }
 
 a {
@@ -21,9 +19,6 @@ a {
     transition: all 0.3s ease;
 }
 
-/* ==========================================
-   Typography & Utilities
-   ========================================== */
 .text-highlight {
     color: var(--primary-color);
 }
@@ -43,9 +38,7 @@ a {
     letter-spacing: 1px;
 }
 
-/* ==========================================
-   Buttons
-   ========================================== */
+/* Buttons */
 .btn-primary-custom {
     background-color: var(--primary-color);
     color: #fff;
@@ -83,9 +76,7 @@ a {
     fill: #ffffff;
 }
 
-/* ==========================================
-   Navbar
-   ========================================== */
+/*Start  Navbar */
 .custom-navbar .nav-link {
     color: var(--text-dark);
     font-size: 1.1rem;
@@ -97,10 +88,9 @@ a {
 .custom-navbar .nav-link.active {
     color: var(--primary-color) !important;
 }
+/*End  Navbar */
 
-/* ==========================================
-   Hero Section
-   ========================================== */
+/*Start  Hero Section */
 .hero-section {
     padding-top: 40px;
     padding-bottom: 80px;
@@ -123,24 +113,13 @@ a {
 .hero-main-img {
     width: 76%;
     border-radius: 20px;
-    /* Optional: Add a soft shadow */
     filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1));
 }
+/*End  Hero Section */
 
-@media (max-width: 991px) {
-    .hero-section {
-        padding-top: 20px;
-        text-align: center;
-    }
-    .hero-bg-shape {
-        top: 0;
-        right: 5%;
-    }
-}
 
-/* ==========================================
-   Stats Section (My-info)
-   ========================================== */
+
+/*Start  My-info Section */
 .my-info {
     position: relative;
     z-index: 10;
@@ -159,25 +138,9 @@ a {
 .stat-item.last-stat {
     border-right: none;
 }
+/*End  My-info Section */
 
-@media (max-width: 767px) {
-    .my-info {
-        margin-top: -150px; /* Reset on mobile for better flow */
-    }
-    .stat-item {
-        border-right: none;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 15px;
-    }
-    .stat-item:nth-last-child(-n+2) {
-        border-bottom: none;
-        padding-bottom: 0;
-    }
-}
-
-/* ==========================================
-   Portfolio Section
-   ========================================== */
+/*Start Portfolio Section */
 .portfolio-bg {
     top: -50px;
     opacity: 0.4;
@@ -195,33 +158,19 @@ a {
     transform: translateY(-5px);
 }
 
-/* كلاس التموضع النسبي */
 .position-relative {
     position: relative;
 }
 
-/* الشبكة المتجاوبة لمعرض الأعمال */
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px; /* المسافة بين بطاقات المشاريع */
+    gap: 30px; 
     width: 100%;
 }
+/* End Portfolio Section */
 
-/* --- تحكم إضافي (اختياري) للشاشات الصغيرة --- */
-@media (max-width: 768px) {
-    .portfolio-grid {
-        gap: 20px; 
-    }
-    .portfolio-grid img {
-
-        margin-top: -131px;}
-}
-
-
-/* ==========================================
-   Skills Section
-   ========================================== */
+/* Start Skills Section */
    .skills{
     background-color: rgba(34, 135, 163, 0.05);
 
@@ -247,23 +196,9 @@ a {
 .social-icon-link:hover img {
     transform: scale(1.1);
 }
-@media (max-width: 768px) {
- .skills .box-right{
-    margin-top: 50px;
- }
- .skills .skilss{
-    margin-top: 50px;
- }
- .testimonials {
-    margin-top: -34px;
- }
- .skills  {
-    margin-top: -30px;
- }
-}
-/* ==========================================
-   Testimonials Section
-   ========================================== */
+/* End Skills Section */
+
+/* Start Testimonials Section */
 .slider-avatar {
     width: 80px !important;
     height: 80px !important;
@@ -275,10 +210,9 @@ a {
 .owl-theme .owl-dots .owl-dot:hover span {
     background: var(--primary-color);
 }
+/* End Testimonials Section */
 
-/* ==========================================
-   Call to Action Section (CTA)
-   ========================================== */
+/* Start Call to Action Section */
 .cta-box {
     background: linear-gradient(135deg, var(--primary-color) 0%, #165b6e 100%);
 }
@@ -287,7 +221,6 @@ a {
     color: var(--primary-color) !important;
 }
 
-/* Background Decorative Circles */
 .cta-decor {
     position: absolute;
     width: 150px;
@@ -306,10 +239,10 @@ a {
     top: -50px;
     right: -50px;
 }
+/* End Call to Action Section */
 
-/* ==========================================
-   Footer Section
-   ========================================== */
+
+/* Start Footer Section */
 .social-link {
     color: var(--primary-color);
     background-color: rgba(34, 135, 163, 0.1);
@@ -327,3 +260,50 @@ a {
     color: #fff;
     transform: translateY(-3px);
 }
+/* End Footer Section */
+
+/* Start Responsive */
+@media (max-width: 991px) {
+    .hero-section {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .hero-bg-shape {
+        top: 0;
+        right: 5%;
+    }
+}
+@media (max-width: 767px) {
+    .my-info {
+        margin-top: -150px; 
+    }
+    .stat-item {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 15px;
+    }
+    .stat-item:nth-last-child(-n+2) {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+        .portfolio-grid {
+        gap: 20px; 
+    }
+    .portfolio-grid img {
+
+        margin-top: -131px;
+    }
+     .skills .box-right{
+    margin-top: 50px;
+    }
+    .skills .skilss{
+        margin-top: 50px;
+    }
+    .testimonials {
+        margin-top: -34px;
+    }
+    .skills  {
+        margin-top: -30px;
+    }
+}
+
